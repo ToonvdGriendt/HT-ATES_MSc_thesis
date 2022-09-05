@@ -73,7 +73,7 @@ df_demand.loc[df_demand['Geothermal Base load [MW]'] >  df_demand['Demand curve 
 #%% 2022 VERSION
 
 # BASE CASE
-# df_ates = pd.read_excel(r'C:\Users\924224\OneDrive - EBN BV\Documents\CMG MODEL\SCENARIOS\2022\Base_case\Base_case.xlsx', skiprows=2)
+df_ates = pd.read_excel(r'Excel_input_files\Base_case.xlsx', skiprows=2)
 
 # S1 SMALL STORAGE VOLUME
 # df_ates = pd.read_excel(r'C:\Users\924224\OneDrive - EBN BV\Documents\CMG MODEL\SCENARIOS\2022\S1_small_storage_V\S1_small_storage_V.xlsx', skiprows=2)
@@ -176,7 +176,7 @@ df_demand.loc[df_demand['Geothermal Base load [MW]'] >  df_demand['Demand curve 
 # df_ates = pd.read_excel(r'C:\Users\924224\OneDrive - EBN BV\Documents\CMG MODEL\SCENARIOS\2022\Permeability\Perm100Darcy.xlsx', skiprows=2)
 
 #7 200 Darcy
-df_ates = pd.read_excel(r'C:\Users\924224\OneDrive - EBN BV\Documents\CMG MODEL\SCENARIOS\2022\Permeability\Perm200Darcy.xlsx', skiprows=2)
+# df_ates = pd.read_excel(r'C:\Users\924224\OneDrive - EBN BV\Documents\CMG MODEL\SCENARIOS\2022\Permeability\Perm200Darcy.xlsx', skiprows=2)
 
 #%% PARAMETERSTUDY PERMEABILITY VOLUME AND DELTA T
 
